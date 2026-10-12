@@ -1,9 +1,9 @@
 cask "ctm" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.16.0"
-  sha256 arm:   "e021fcc02484a66cd2ff77e6516e13d02d939c859c50d1edb82ff3fa098855e3",
-         intel: "cef3151859032f4b500de505f55d7385221dea1a0c93f13caa523311a21408cf"
+  version "0.17.0"
+  sha256 arm:   "e2702c0eba401ec3f2fbc96a4bd75b1498a000d57e616c0f80ef0ce575ae9411",
+         intel: "8d2937affc97140ea742ad46f00db4d78cbf2f3c8206e6d5ac40d147868c8f0f"
 
   url "https://github.com/calltracking/ctm-cli/releases/download/v#{version}/ctm_#{version}_darwin_#{arch}.tar.gz"
   name "ctm"
